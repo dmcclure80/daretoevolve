@@ -1,0 +1,283 @@
+/* Class Selectors */
+#mainhead {
+  margin-top: 40px;
+  padding: 7% 15%;
+}
+
+.middle {
+  background-color: #CDD9E9;
+  margin-top: 70px;
+}
+
+.topmargin {
+  margin-top: 70px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.navbar {
+  border-bottom: 40px;
+  margin-right: 0;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.seedheader{
+  padding-left: 7%;
+}
+
+.container {
+  /*padding: auto;*/
+  margin-top: 70px;
+
+}
+
+.menu {
+  background-color: #a8adb5;
+}
+
+.top {
+  background-color: #e3e3ed;
+  margin-top: 75px;
+  position: relative;
+}
+
+.c1 {background-color: #CDD9E9;}
+
+.c2 {background-color: #e3e3ed;}
+
+/*.middle {
+  margin: 50px 0;
+}*/
+
+.bottom {
+  background-color: #83b3fc;
+  margin-top: 10px;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: .75rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 100px;
+  top: 10px;
+}
+
+.bottom-cloud {
+  bottom: 350px;
+  left: 150px;
+  position: absolute;
+}
+
+.mountain {
+  bottom: 200px;
+  top: 700px;
+}
+
+.profile {
+  line-height: 2;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.interests {
+  background-color: #e3e3ed;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.interest-row {
+  line-height: 2;
+  margin: 5px auto 50px auto;
+  text-align: left;
+  width: 70%;
+}
+
+.contact-me {
+  margin: 5px auto 50px auto;
+  width: 50%;
+}
+
+.first-h2 {
+  font-weight: normal;
+}
+
+.second-h2 {
+  text-align: center;
+}
+
+.para-indent {
+  padding-left: 5em;
+}
+
+.myname {
+  color: #808080;
+  font-style: cursive;
+  font-size: 2.5rem;
+  font-family: 'Sacramento',
+}
+
+.image-left {
+  float: left;
+  margin-right: 30px;
+}
+
+.image-right {
+  float: right;
+  margin-left: 30px;
+}
+
+.butn {
+  background: #808089;
+  background-image: -webkit-linear-gradient(top, #00090A, #808089);
+  background-image: -moz-linear-gradient(top, #00090A, #808089);
+  background-image: -ms-linear-gradient(top, #00090A, #808089);
+  background-image: -o-linear-gradient(top, #00090A, #808089);
+  background-image: linear-gradient(to bottom, #00090A, #808089);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #808089;
+  background-image: -webkit-linear-gradient(top, #808089, #00090A);
+  background-image: -moz-linear-gradient(top, #808089, #00090A);
+  background-image: -ms-linear-gradient(top, #808089, #00090A);
+  background-image: -o-linear-gradient(top, #808089, #00090A);
+  background-image: linear-gradient(to bottom, #808089, #00090A);
+  text-decoration: none
+}
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  /* height: 300px;  Should be removed. Only for demonstration */
+  margin-bottom: 12em;
+  padding: 10px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    background-color: #e7e7e7;
+    color: #555;
+}
+
+.nav-item {
+  background-color: #343a40;
+}
+
+.force-scroll{
+  height: 300px;
+  overflow-y: scroll;
+
+}
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown {
+  margin-top: 18px;
+}
+
+/* Tag Selectors */
+body {
+  background-color: #e3e3ed;
+  color: #40514E;
+  font-family: arial, sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+
+a {
+  color: #808088;
+  font-weight: bold;
+  margin: 10px 20px;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #456090;
+}
+
+h1 {
+  color: #808080;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50 auto 0 auto;
+  text-align:center;
+}
+
+h2 {
+  color: #808082;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  /*margin-top: 0;*/
+}
+
+h3 {
+  color: #808085;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 75px;
+}
+
+section {
+  padding: 0 0;
+}
+
+p {
+  font-size: 1.25em;
+  line-height: 2;
+}
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 100px;
+}
+
+hr {
+  border: dotted #40514E 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
+/* ID Selectors begin with # */

@@ -267,12 +267,7 @@ p {
   font-size: 1.25em;
   line-height: 2;
 }
-p {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 100px;
-}
+
 
 hr {
   border: dotted #40514E 6px;

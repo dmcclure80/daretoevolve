@@ -1,6 +1,8 @@
 /* Class Selectors */
 #mainhead {
   margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 300px;
   padding: 7% 15%;
 }
 
@@ -119,7 +121,7 @@
 }
 
 .para-indent {
-  padding-left: 5em;
+  padding-left: 25em;
 }
 
 .myname {
@@ -264,8 +266,9 @@ section {
 }
 
 p {
-  font-size: 1.25em;
-  line-height: 2;
+  font-size: 1.5em;
+  line-height: 1.5;
+
 }
 
 

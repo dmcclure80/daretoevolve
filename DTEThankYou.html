@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You – Dare to Evolve</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    :root {
+      --deep-teal: #103a47;
+      --teal: #145466;
+      --soft-teal: #2b7c8f;
+      --accent: #59c3d8;
+      --cream: #f3ede1;
+      --white: #ffffff;
+      --text-dark: #0c0c0c;
+      --text-light: #f8fafc;
+      --muted: #cfd5d6;
+      --border: #1c4e59;
+      --bg: #0f2e3d;
+      --font-main: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-main);
+      background: linear-gradient(180deg, var(--deep-teal) 0%, #0c242e 100%);
+      color: var(--text-light);
+      line-height: 1.6;
+      padding: 3rem 1.5rem 4rem;
+    }
+
+    .page {
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    /* MAIN CARD */
+    .thank-card {
+      background: linear-gradient(145deg, var(--teal), var(--deep-teal));
+      border-radius: 22px;
+      padding: 2.8rem 2.3rem;
+      border: 1px solid var(--border);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    .thank-title {
+      font-size: 2.2rem;
+      color: var(--cream);
+      margin-bottom: 0.75rem;
+    }
+
+    .thank-subtitle {
+      font-size: 1.1rem;
+      color: var(--muted);
+      margin-bottom: 1.8rem;
+      max-width: 36rem;
+    }
+
+    .thank-highlight {
+      background: rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 1.2rem 1.3rem;
+      margin-bottom: 2rem;
+      border: 1px solid rgba(255,255,255,0.12);
+      font-size: 1rem;
+      color: var(--cream);
+    }
+
+    .thank-highlight strong {
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+
+    .steps {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 2rem 0;
+    }
+
+    .steps li {
+      display: flex;
+      gap: 0.7rem;
+      margin-bottom: 0.9rem;
+      font-size: 1rem;
+      color: var(--cream);
+    }
+
+    .steps li span.step-num {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .thank-next {
+      font-size: 1rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+      max-width: 36rem;
+    }
+
+    /* BUTTONS */
+    .btn-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      padding: 0.9rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1rem;
+      color: var(--text-dark);
+      font-weight: 600;
+      display: inline-block;
+      transition: 0.2s ease;
+    }
+
+    .btn-primary:hover {
+      background: #6ad4e8;
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      padding: 0.9rem 1.5rem;
+      border-radius: 30px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: var(--cream);
+      font-size: 0.95rem;
+      display: inline-block;
+      transition: 0.2s ease;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.12);
+    }
+
+    .tiny-note {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.6rem;
+    }
+
+    /* LOWER SECTION */
+    .section {
+      margin-top: 2.5rem;
+      background: linear-gradient(135deg, #0f2833, #103a47);
+      border-radius: 18px;
+      padding: 1.8rem 1.7rem;
+      border: 1px solid var(--border);
+    }
+
+    .section h2 {
+      color: var(--cream);
+      margin-bottom: 0.7rem;
+      font-size: 1.5rem;
+    }
+
+    .section p {
+      color: var(--muted);
+      font-size: 1rem;
+      margin-bottom: 0.9rem;
+    }
+
+    @media (max-width: 720px) {
+      body {
+        padding: 2rem 1rem 3rem;
+      }
+      .thank-card {
+        padding: 2.2rem 1.7rem;
+      }
+      .thank-title {
+        font-size: 1.9rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+
+    <!-- THANK YOU CARD -->
+    <section class="thank-card">
+      <h1 class="thank-title">Thank you — your chapter is on its way.</h1>
+
+      <p class="thank-subtitle">
+        I’ve sent a link to download Chapter One of <em>Dare to Evolve</em> to your email.
+        It should arrive shortly.
+      </p>
+
+      <div class="thank-highlight">
+        <strong>To make sure you receive it:</strong>
+        Please check your inbox for an email titled “Your free chapter of Dare to Evolve.”
+        If it’s not in your main inbox, look in Promotions, Updates, or Spam and drag it into your primary folder.
+      </div>
+
+      <ul class="steps">
+        <li>
+          <span class="step-num">1</span>
+          Open the email and download your copy of Chapter One.
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          Find a quiet moment to read — and notice what resonates.
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          If it speaks to you, the full book expands the journey in powerful ways.
+        </li>
+      </ul>
+
+      <p class="thank-next">
+        Over the next few days, I’ll also send a short series of emails sharing real sustainable
+        solutions that are working today, along with invitations to courses and a collaborative
+        membership community. I think you’ll find them meaningful.
+      </p>
+
+      <div class="btn-row">
+        <a href="https://www.amazon.com/Dare-Evolve-Sustainable-Solutions-Striving/dp/B0FMDHJVT9"
+           target="_blank"
+           class="btn-primary">
+          Get the full book on Amazon →
+        </a>
+
+        <a href="https://daretoevolve.us"
+           class="btn-secondary">
+          To DTE main site
+        </a>
+      </div>
+
+      <p class="tiny-note">
+        If you don’t see the email after 10–15 minutes, try searching for “Dare to Evolve”
+        or checking other folders.
+      </p>
+    </section>
+
+    <!-- LOWER SECTION -->
+    <section class="section">
+      <h2>What you’ve stepped into</h2>
+      <p>
+        By requesting this chapter, you’re stepping into a conversation —
+        one centered on compassion, clarity, and practical ways we can help move the world
+        toward sustainability and hope.
+      </p>
+      <p>
+        I’m grateful you’re here.  
+        Let’s explore the possibilities together.
+      </p>
+    </section>
+
+  </main>
+</body>
+</html>

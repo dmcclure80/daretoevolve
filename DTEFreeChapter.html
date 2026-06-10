@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Dare to Evolve – Free Chapter</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     :root {
       /* Brand colors inspired by DareToEvolve.us */
@@ -17,7 +19,7 @@
       --text-light: #f8fafc;
       --muted: #cfd5d6;
       --border: #1c4e59;
-      --bg: #0f2e3d;
+      --bg: #102b3a;
       --font-main: "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 
@@ -29,7 +31,9 @@
       line-height: 1.6;
     }
 
-    a { text-decoration: none; }
+    a {
+      text-decoration: none;
+    }
 
     .page {
       max-width: 1100px;
@@ -46,7 +50,7 @@
       grid-template-columns: 1.5fr 1fr;
       gap: 2rem;
       border: 1px solid var(--border);
-      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     }
 
     .hero h1 {
@@ -106,7 +110,7 @@
     .btn-secondary {
       padding: 0.75rem 1.3rem;
       border-radius: 30px;
-      background: rgba(255,255,255,0.07);
+      background: rgba(255, 255, 255, 0.07);
       border: 1px solid var(--accent);
       color: var(--accent);
       font-size: 0.95rem;
@@ -115,15 +119,15 @@
     }
 
     .btn-secondary:hover {
-      background: rgba(255,255,255,0.15);
+      background: rgba(255, 255, 255, 0.15);
     }
 
     /* FORM (Right Box) */
     .hero-right {
-      background: rgba(255,255,255,0.08);
+      background: rgba(255, 255, 255, 0.08);
       padding: 1.8rem;
       border-radius: 16px;
-      border: 1px solid rgba(255,255,255,0.1);
+      border: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     .hero-right input {
@@ -131,7 +135,7 @@
       padding: 0.7rem;
       border-radius: 12px;
       border: 1px solid var(--border);
-      background: rgba(255,255,255,0.12);
+      background: rgba(255, 255, 255, 0.12);
       color: var(--white);
       margin-bottom: 1rem;
     }
@@ -193,10 +197,10 @@
     }
 
     .testimonial-card {
-      background: rgba(255,255,255,0.06);
+      background: rgba(255, 255, 255, 0.06);
       padding: 1.2rem;
       border-radius: 14px;
-      border: 1px solid rgba(255,255,255,0.1);
+      border: 1px solid rgba(255, 255, 255, 0.1);
       color: var(--cream);
     }
 
@@ -231,6 +235,7 @@
       .hero {
         grid-template-columns: 1fr;
       }
+
       .cta-band {
         flex-direction: column;
         text-align: center;
@@ -240,19 +245,26 @@
 </head>
 
 <body>
+
+  <div id="simple-nav-placeholder"></div>
+  <script src="menu-data.js"></script>
+  <script src="menu.js"></script>
+
   <main class="page">
 
     <!-- HERO -->
     <section class="hero">
-         
+
       <div class="hero-left">
-        
+
         <h1><span>Dare to Evolve</span>: A Pathway to Hope Through Sustainable Solutions</h1>
 
         <p class="hero-subtitle">
-          Discover uplifting, practical solutions already transforming the world —  
+          Discover uplifting, practical solutions already transforming the world —
           and awaken your own role in creating a compassionate, sustainable future.
-        </p>
+
+        </p><br />
+
 
         <ul class="hero-bullets">
           <li><span class="icon">✓</span>Instant access to Chapter One</li>
@@ -260,27 +272,23 @@
           <li><span class="icon">✓</span>A hopeful shift from chaos to clarity</li>
         </ul>
 
-        <a href="#free" class="btn-primary">Get Chapter One Free</a>
-        <br><br>
-        <a href="https://www.amazon.com/Dare-Evolve-Sustainable-Solutions-Striving/dp/B0FMDHJVT9" class="btn-secondary" target="_blank">
+        
+        <br />
+        <a href="https://www.amazon.com/Dare-Evolve-Sustainable-Solutions-Striving/dp/B0FMDHJVT9" class="btn-secondary"
+          target="_blank">
           Order the full book on Amazon →
         </a>
       </div>
 
       <div class="hero-right" id="free">
         <p margin-left 200px;>
-        <img width="118" height="189" src="images/DTECover-front.jpg" alt="front-img" />
-        <img width="118" height="189" src="images/DTECover-back.jpg" alt="back-img" />
-      </p>
-      <h3>Get the Free Chapter</h3>
-        <p>Enter your email and I’ll send Chapter One directly to your inbox.</p>
-
-        <form action="#" method="post">
-          <input type="text" name="name" placeholder="Your name" required>
-          <input type="email" name="email" placeholder="Your best email" required>
-          <button type="submit" class="btn-primary" style="width:100%">Email Me the Chapter</button>
-          <p class="form-footnote">No spam — only thoughtful, hopeful updates.</p>
-        </form>
+          <img width="118" height="189" src="images/DTECover-front.jpg" alt="front-img" />
+          <img width="118" height="189" src="images/DTECover-back.jpg" alt="back-img" />
+        </p>
+        <h3>Get the Free Chapter</h3>
+        <p>Enter your email and you'll be directed to Chapter One.</p>
+        <script async data-uid="e6362e9a6d" src="https://marvelous-producer-1237.kit.com/e6362e9a6d/index.js"></script>
+        
       </div>
     </section>
 
@@ -333,9 +341,12 @@
 
     <div class="footer">
       Prefer to read the full book?
-      <a href="https://www.amazon.com/Dare-Evolve-Sustainable-Solutions-Striving/dp/B0FMDHJVT9" target="_blank">Order on Amazon</a>
+      <a href="https://www.amazon.com/Dare-Evolve-Sustainable-Solutions-Striving/dp/B0FMDHJVT9" target="_blank">Order on
+        Amazon</a>
     </div>
 
   </main>
+
 </body>
+
 </html>
